@@ -23,3 +23,8 @@ img{
 li{
   float: right;
 }
+.footer-logo{
+    border-top: 3px solid #333;
+    padding: 10px;
+    margin:20px;
+}
