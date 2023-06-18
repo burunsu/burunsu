@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {% for post in posts %}
   <url>
-    <loc>{https://burunsu.github.io/burunsu/web/}</loc>
+    <loc>https://burunsu.github.io/burunsu/web/</loc>
     {% if post.updated %}
     <lastmod>{{ post.updated | formatDate }}</lastmod>
     {% elif post.date %}
@@ -14,7 +14,7 @@
   {% endfor %}
 
   <url>
-    <loc>{https://burunsu.github.io/burunsu/web/}</loc>
+    <loc>https://burunsu.github.io/burunsu/web/</loc>
     <lastmod>{{ sNow | formatDate }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -22,7 +22,7 @@
 
   {% for tag in tags %}
   <url>
-    <loc>{https://burunsu.github.io/burunsu/web/}</loc>
+    <loc>https://burunsu.github.io/burunsu/web/</loc>
     <lastmod>{{ sNow | formatDate }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
