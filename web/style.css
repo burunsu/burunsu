@@ -217,7 +217,7 @@ nav .inner ul li a:hover{
   opacity: 0.8;
   cursor: pointer;
 }
-.topgazou{
+.img-wrap{
   width: 930px;
   height: 530px;
 }
@@ -345,4 +345,41 @@ nav .inner ul li a:hover{
     left: 16px;
     transform: translateY(-6px) rotate(135deg);
     width: 50%;
+}
+.img-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.cover1,
+.cover2,
+.cover3 {
+  animation: cover 2s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fff;
+  height: calc(100%/3);
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.cover1 {
+  top: 0;
+}
+
+.cover2 {
+  animation-delay: .2s;
+  top: calc(100%/3);
+}
+
+.cover3 {
+  animation-delay: .4s;
+  top: calc(100%/3*2);
+}
+
+@keyframes cover {
+  100% {
+    transform: translateX(100%);
+  }
 }
