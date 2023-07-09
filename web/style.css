@@ -79,6 +79,9 @@ body {
     font-size: 15pt;
     background-color:#9400d3;
 }
+.rrn{
+   color:#FFFFFF;
+}
 .logo1{
   border-bottom: 3px solid #333;
   padding: 10px;
@@ -92,13 +95,6 @@ h1 {
   width: 600px;
   height: 80px;
   background-color: #00FFFF;
-}
-.aas{
-    border-bottom: 3px solid #333;
-    padding: 10px;
-    margin: 20px;
-    font-size: 50px;
-    color: red
 }
 .dest {
   border-bottom: 3px solid #333;
