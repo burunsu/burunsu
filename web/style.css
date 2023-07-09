@@ -397,13 +397,13 @@ nav .inner ul li a:hover{
 }
 
 .imgweep:before {
-  animation-name: img-wrap-before;
+  animation-name: imgweep-before;
   top: 0;
   bottom: 50%;
 }
 
 .imgweep:after {
-  animation-name: img-wrap-after;
+  animation-name: imgweep-after;
   top: 50%;
   bottom: 0;
 }
