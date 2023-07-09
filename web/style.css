@@ -384,7 +384,7 @@ nav .inner ul li a:hover{
   position: relative;
 }
 
-.img-wrap:before,
+.imgweep:before,
 .img-wrap:after {
   animation: 2s cubic-bezier(.4, 0, .2, 1) forwards;
   background: #fff;
@@ -396,13 +396,13 @@ nav .inner ul li a:hover{
   z-index: 1;
 }
 
-.img-wrap:before {
+.imgweep:before {
   animation-name: img-wrap-before;
   top: 0;
   bottom: 50%;
 }
 
-.img-wrap:after {
+.imgweep:after {
   animation-name: img-wrap-after;
   top: 50%;
   bottom: 0;
