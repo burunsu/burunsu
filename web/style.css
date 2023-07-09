@@ -77,7 +77,25 @@
 }
 body {
     font-size: 15pt;
-    background-color:#FFFF00;
+    font-color:#fff;　
+}
+
+.gradient-background {
+  background: linear-gradient(300deg,deepskyblue,darkviolet,#9420e2,#4361e9);
+  background-size: 240% 240%;
+  animation: gradient-animation 24s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .logo1{
   border-bottom: 3px solid #333;
