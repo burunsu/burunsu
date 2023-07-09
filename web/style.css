@@ -379,3 +379,37 @@ nav .inner ul li a:hover{
     transform: translateX(100%);
   }
 }
+.imgweep{
+  opacity: 0;
+}
+
+.img-animation {
+  animation: img-opacity 2s cubic-bezier(.4, 0, .2, 1);
+  overflow: hidden;
+  position: relative;
+}
+
+.img-animation:before {
+  animation: img-animation 2s cubic-bezier(.4, 0, .2, 1) forwards;
+  background: #fff;
+  bottom: 0;
+  content: '';
+  left: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+@keyframes img-opacity {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes img-animation {
+  100% {
+    transform: translateX(100%);
+  }
+}
