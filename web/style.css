@@ -385,7 +385,7 @@ nav .inner ul li a:hover{
 }
 
 .imgweep:before,
-.img-wrap:after {
+.img-weep:after {
   animation: 2s cubic-bezier(.4, 0, .2, 1) forwards;
   background: #fff;
   content: '';
