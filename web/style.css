@@ -408,13 +408,13 @@ nav .inner ul li a:hover{
   bottom: 0;
 }
 
-@keyframes img-wrap-before {
+@keyframes imgweep-before {
   100% {
     transform: translateX(100%);
   }
 }
 
-@keyframes img-wrap-after {
+@keyframes imgweep-after {
   100% {
     transform: translateX(-100%);
   }
