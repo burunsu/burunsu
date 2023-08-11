@@ -81,9 +81,9 @@ body {
 }
 .title {
   margin-right: auto;
-　margin: auto; 
   width: 400px;
   height:100px;
+　margin: auto; 
 　position: fixed;
 　z-index: 99999; 
 }
