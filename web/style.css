@@ -81,8 +81,10 @@ body {
 }
 .title {
   margin-right: auto;
-  width: 200px;
+  width: 400px;
   height:100px;
+  margin: auto;
+  display: block;
 }
 .rrn{
    color:#FFFFFF;
