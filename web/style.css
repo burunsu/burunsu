@@ -84,8 +84,6 @@ body {
   width: 400px;
   height:100px;
 　position: fixed;
-  margin: auto;
-  display: block;
 　z-index: 99999; 
 }
 .rrn{
