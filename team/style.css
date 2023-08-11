@@ -79,6 +79,13 @@ body {
     font-size: 15pt;
     background-color:#9400d3;    
 }
+.title { 
+   margin-right: auto; 
+   width: 400px; 
+   height:100px; 
+   margin: auto; 
+   display: block; 
+ }
 .logo1{
   border-bottom: 3px solid #333;
   padding: 10px;
