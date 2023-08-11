@@ -2,6 +2,13 @@ body {
     font-size: 15pt;
     background-color: #ffff00;
 }
+.title { 
+   margin-right: auto; 
+   width: 400px; 
+   height:100px; 
+   margin: auto; 
+   display: block; 
+ }
 .imgweep {
   overflow: hidden;
   position: relative;
