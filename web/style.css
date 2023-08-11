@@ -86,6 +86,7 @@ body {
 　margin: auto; 
 　position: fixed;
 　z-index: 99999; 
+ display: block; 
 }
 .rrn{
    color:#FFFFFF;
