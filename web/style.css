@@ -79,10 +79,10 @@ body {
     font-size: 15pt;
     background-color:#9400d3;
 }
-  display: flex;
-  position: fixed;
 .title {
   margin-right: auto;
+  width:600px;
+  height:200px;
   display: flex;
   position: fixed;
 }
