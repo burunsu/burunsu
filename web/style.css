@@ -79,14 +79,12 @@ body {
     font-size: 15pt;
     background-color:#9400d3;
 }
-.title {
-  margin-right: auto;
-  width: 400px;
-  height:100px;
-　margin: auto; 
-　position: fixed;
-　z-index: 99999; 
- display: block; 
+.title {  
+    margin-right: auto;  
+    width: 400px;  
+    height:100px;  
+    margin: auto;  
+    display: block;  
 }
 .rrn{
    color:#FFFFFF;
