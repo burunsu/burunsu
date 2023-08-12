@@ -245,7 +245,7 @@ nav .inner ul li a:hover{
 .switch {
  padding: 10px 30px;
  background: yellow;
- color: #ffffff;
+ color: black;
 }
 .switch:hover {
  opacity: 0.7;
