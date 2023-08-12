@@ -230,3 +230,15 @@ nav .inner ul li a:hover{
   opacity: 0.8;
   cursor: pointer;
 }
+.btn {
+ padding: 10px 20px;
+ background: #ffa500;
+ color: #111111;
+ border-bottom: solid 5px gray;
+ border-radius: 4px;
+}
+.btn:active {
+ -webkit-transform: translateY(5px);
+ transform: translateY(5px);
+ border-bottom: none;
+}
