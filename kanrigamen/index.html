@@ -6,6 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>ブルクラ 登録番号確認</title>
+   <script language="javascript" type="text/javascript">
+        function onButtonClick() {
+            var val = document.forms.form1.textBox1.value;
+            var target = document.getElementById("output");
+
+            if (val == "0112") {
+                target.innerHTML = "マインクラフトサーバー 管理画面";
+            } else {
+                target.innerHTML = "正しい登録番号を入力して下さい";
+            }
+        }
+  </script>
   
   <!-- HTML -->
   
