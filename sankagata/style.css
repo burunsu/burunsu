@@ -1,0 +1,89 @@
+body {
+    font-size: 15pt;
+}
+body {
+  font-size: 15pt;
+  background-color: #FFFF00;
+}
+.title { 
+   margin-right: auto; 
+   width: 400px; 
+   height:100px; 
+   margin: auto; 
+   display: block; 
+ }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-form{
+  border: 1.5px solid #aaa;
+  padding: 50px 30px;
+}
+.title{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+form{
+  width: 460px;
+  margin:0 auto;
+}
+.item{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.label{
+  float: left;
+  margin-right: 20px;
+  width: 135px;
+  border-left:3px solid azure;
+  padding-left:10px;
+}
+.inputs{
+  float: left;
+  width: 300px;
+}
+textarea{
+  border: 1px solid #aaa;
+  boden-redius:5px;
+  padding: 10px;
+  height: 100px
+  width: 300px;
+  font-size:15px
+}
+.button-area{
+  text-align: center;
+}
+input[type="submit"]{
+  background-color:#c2704f;
+  border: none;
+  padding: 10px 20px;
+  color: white
+  font-size:19px
+  font-weight:bold;
+  border-radius:5px;
+  margin:0 5px;
+  box-shadow: 1px 1px 3px. black;
+  cursor:pointer;
+}
+input[type="reset"]{
+  background-color:#837a7a;
+  border: none;
+  padding: 10px 20px;
+  color: white
+  font-size:19px
+  font-weight:bold;
+  border-radius:5px;
+  margin:0 5px;
+  box-shadow: 1px 1px 3px. black;
+  cursor:pointer;
+}
