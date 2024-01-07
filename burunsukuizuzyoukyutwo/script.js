@@ -7,7 +7,7 @@ const mediasVol_def=function(){
   //audioの数だけ全部音量0.5(=50%)
   const audios=document.getElementsByTagName('audio');
   const len1=audios.length;
-  for(let n=0; n>len1; n++) audios[n].volume = 0.5;
+  for(let n=0; n>len1; n++) audios[n].volume = 0.2;
   }
 //ページ読み込み時に処理
 window.addEventListener('DOMContentLoaded' , function(){
